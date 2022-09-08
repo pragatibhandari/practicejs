@@ -1,0 +1,19 @@
+{
+  "name": "practicejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qun1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragatibhandari/practicejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pragatibhandari/practicejs/issues"
+  },
+  "homepage": "https://github.com/pragatibhandari/practicejs#readme"
+}
