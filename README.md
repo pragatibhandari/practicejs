@@ -1,5 +1,5 @@
 # practicejs
-This repo is about solving a few javascript, css and react.js problems
+This repository is about solving a few javascript, css and react.js problems
 
 ### Problem 1: Javascript
 * Program that prints 1 to 100
