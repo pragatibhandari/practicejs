@@ -1,7 +1,7 @@
 {
   "name": "practicejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository is about solving a few javascript, css and react.js problems",
   "main": "qun1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
