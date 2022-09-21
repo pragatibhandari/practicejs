@@ -1,0 +1,36 @@
+/* draw two squares of width 50px side by side;
+each square should have a circle in the center with radious of 10px;
+distance between two squares would be 10 px;
+*/
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sq1 {
+  margin: 5px;
+}
+
+.sq {
+  height: 50px;
+  width: 50px;
+  border: thin dashed rgb(186, 27, 27);
+  float: left;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sq span {
+  background-color: red;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
