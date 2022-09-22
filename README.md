@@ -4,7 +4,7 @@ This repository is about solving a few javascript, css and react.js problems
 
 ## Javascript
 
-### Problem 1:
+### Problem 1
 
 - Program that prints 1 to 100
 - But for multiple of 3 print Fizz
@@ -23,7 +23,13 @@ This repository is about solving a few javascript, css and react.js problems
 
 - String must contain following characters: ".", "@"
 - There must be at least two characters after the period.
-- The first letter cannot be a "." or a "@". \*/
+- The first letter cannot be a "." or a "@".
+
+### Problem 4
+
+##### Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
+
+- In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
 
 ## CSS
 
