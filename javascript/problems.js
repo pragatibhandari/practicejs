@@ -31,13 +31,13 @@ function limitText() {
 // 1 line solution for problem 2
 console.log(prompt('Write a short tweet').slice(0, 11))
 
-// Write code for a function that checks whether a given string is a valid email (NOTE! the validation doesn't need to perfect, it's enough that it fulfills the requirements listed here).
+// Problem 3
+/* Write code for a function that checks whether a given string is a valid email (NOTE! the validation doesn't need to perfect, it's enough that it fulfills the requirements listed here).
 
-// The requirements are:
-
-// String must contain following characters: ".", "@"
-// There must be at least two characters after the period.
-// The first letter cannot be a "." or a "@".
+The requirements are:
+String must contain following characters: ".", "@"
+There must be at least two characters after the period.
+The first letter cannot be a "." or a "@". */
 
 function checkEmail(email) {
   var re = /[A-Z]/gim
@@ -60,3 +60,21 @@ function checkEmail(email) {
 checkEmail('foo') //Email invalid
 checkEmail('email@test.fi') //Email ok
 checkEmail('email@test.') //Email invalid
+
+// Problem 4
+// Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
+
+// In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
+
+function oddOrEven(number) {
+  'var='
+  Number(number)
+  if (number % 2 == 0) {
+    console.log(+number + ' is even')
+  } else {
+    console.log(+number + ' is odd')
+  }
+}
+
+oddOrEven(2) //2 is even
+oddOrEven(5) //5 is odd
