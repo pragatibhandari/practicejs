@@ -15,6 +15,16 @@ This repository is about solving a few javascript, css and react.js problems
 
 - Create a prompt where you can write twitter like text limited to 10 words.
 
+### Problem 3
+
+##### Write code for a function that checks whether a given string is a valid email (NOTE! the validation doesn't need to perfect, it's enough that it fulfills the requirements listed here).
+
+#### The requirements are:
+
+- String must contain following characters: ".", "@"
+- There must be at least two characters after the period.
+- The first letter cannot be a "." or a "@". \*/
+
 ## CSS
 
 ### Problem 1
