@@ -31,6 +31,11 @@ This repository is about solving a few javascript, css and react.js problems
 
 - In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
 
+### Problem 5
+
+- Write code for a function calculate() that accepts three parameters: number1, number2 and calculation. Calculation is +, -, / or \*.
+- Function prints out the result of the calculation.
+
 ## CSS
 
 ### Problem 1
