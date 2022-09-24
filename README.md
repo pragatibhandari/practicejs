@@ -17,7 +17,7 @@ This repository is about solving a few javascript, css and react.js problems
 
 ### Problem 3
 
-##### Write code for a function that checks whether a given string is a valid email (NOTE! the validation doesn't need to perfect, it's enough that it fulfills the requirements listed here).
+- Write code for a function that checks whether a given string is a valid email (NOTE! the validation doesn't need to perfect, it's enough that it fulfills the requirements listed here).
 
 #### The requirements are:
 
