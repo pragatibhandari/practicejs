@@ -27,9 +27,9 @@ This repository is about solving a few javascript, css and react.js problems
 
 ### Problem 4
 
-##### Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
+- Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
 
-- In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
+* In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
 
 ### Problem 5
 
