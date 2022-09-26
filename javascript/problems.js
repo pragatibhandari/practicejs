@@ -104,11 +104,34 @@ function calculate(number1, number2, calculation) {
   }
 }
 
-calculate(8, 12, "+");
-calculate(8, 12, "-");
-calculate(8, 12, "*");
-calculate(8, 12, "/");
+calculate(8, 12, "+"); // 20
+calculate(8, 12, "-"); // -4
+calculate(8, 12, "*"); // 96
+calculate(8, 12, "/"); //0.6666666666666666
 
 // Problem 6
 
 // Create a function divisibility() that takes three input parameters: divider, min, and max and prints out all the numbers between min and max that are divisible by given divider. Print each number on a new line.
+
+function divisibility(divider, min, max) {
+  var x = min;
+  var y = max;
+  let z = divider;
+
+  for (x; x <= y; x++) {
+    if (x % z == 0) {
+      console.log(x);
+    }
+  }
+}
+divisibility(10, 10, 100);
+// 10
+// 20
+// 30
+// 40
+// 50
+// 60
+// 70
+// 80
+// 90
+// 100
