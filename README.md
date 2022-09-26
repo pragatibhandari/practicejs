@@ -36,6 +36,10 @@ This repository is about solving a few javascript, css and react.js problems
 - Write code for a function calculate() that accepts three parameters: number1, number2 and calculation. Calculation is +, -, / or \*.
 - Function prints out the result of the calculation.
 
+### Problem 6
+
+- Create a function divisibility() that takes three input parameters: divider, min, and max and prints out all the numbers between min and max that are divisible (modulo 0) by given divider. Print each number on a new line.
+
 ## CSS
 
 ### Problem 1
