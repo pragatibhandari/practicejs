@@ -135,3 +135,15 @@ divisibility(10, 10, 100);
 // 80
 // 90
 // 100
+
+// Problem 7
+
+// Create a function countDigits() that counts the number of digits in a given number and returns the number of digits.
+
+function countDigits(givendigit) {
+  let digit = givendigit;
+  let count = String(digit).length;
+  return count;
+}
+
+process.stdout.write("Number of digits: " + countDigits(10) + ".");
