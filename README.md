@@ -40,6 +40,10 @@ This repository is about solving a few javascript, css and react.js problems
 
 - Create a function divisibility() that takes three input parameters: divider, min, and max and prints out all the numbers between min and max that are divisible by given divider. Print each number on a new line.
 
+### Problem 7
+
+- Create a function countDigits() that counts the number of digits in a given number and returns the number of digits.
+
 ## CSS
 
 ### Problem 1
