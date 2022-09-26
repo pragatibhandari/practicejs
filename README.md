@@ -38,7 +38,7 @@ This repository is about solving a few javascript, css and react.js problems
 
 ### Problem 6
 
-- Create a function divisibility() that takes three input parameters: divider, min, and max and prints out all the numbers between min and max that are divisible (modulo 0) by given divider. Print each number on a new line.
+- Create a function divisibility() that takes three input parameters: divider, min, and max and prints out all the numbers between min and max that are divisible by given divider. Print each number on a new line.
 
 ## CSS
 
