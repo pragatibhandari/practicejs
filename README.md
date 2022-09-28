@@ -50,11 +50,6 @@ This repository is about solving a few javascript, css and react.js problems
 
 - In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
 
-### Problem 9
-- Write code for a function that gets two parameters, start and end. The function then prints out numbers from start to end, each of them on their respective line.
-
-In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
-
 ## CSS
 
 ### Problem 1
