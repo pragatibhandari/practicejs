@@ -163,3 +163,31 @@ function printNumbers(start, end) {
   }
 }
 printNumbers(1, 10); //Prints 1 to 10
+
+// Problem 9
+
+// Write code for a function that gets three parameters: firstWeekDay (a number, 1 meaning Monday, 2 for Tuesday etc.), month and numberOfDays and will then print out each date accompanied by the weekday name
+
+// In this task you can assume input to be of correct data type (numeric) and error handling is not necessary.
+
+function calendar(firstWeekDay, month, numberOfDays) {
+  var days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+
+  for (var i = 1; i <= numberOfDays; i++) {
+    for (var num = firstWeekDay; num <= 7; num++) {
+      var weekday = days[num];
+      console.log(weekday);
+    }
+
+    console.log(weekday + " " + i + "." + month + ".");
+  }
+}
+calendar(4, 2, 15);
