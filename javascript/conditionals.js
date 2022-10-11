@@ -79,7 +79,35 @@ function checkEmail(email) {
     console.log("Email invalid");
   }
 }
-
 checkEmail("foo"); //Email invalid
 checkEmail("email@test.fi"); //Email ok
 checkEmail("email@test."); //Email invalid
+
+// Problem 5
+/* Write code for a function calculate() that accepts three parameters: number1, number2 and calculation. Calculation is +, -, / or *.
+ Function prints out the result of the calculation. */
+
+function calculate(number1, number2, calculation) {
+  var num1 = Number(number1);
+  var num2 = Number(number2);
+  var calc = String(calculation);
+  let sum = num1 + num2;
+  let diff = num1 - num2;
+  let product = num1 * num2;
+  let divide = num1 / num2;
+
+  if (calc == "+") {
+    return console.log(sum);
+  } else if (calc == "-") {
+    console.log(diff);
+  } else if (calc == "*") {
+    console.log(product);
+  } else {
+    console.log(divide);
+  }
+}
+
+calculate(8, 12, "+"); // 20
+calculate(8, 12, "-"); // -4
+calculate(8, 12, "*"); // 96
+calculate(10, 5, "/"); //2
