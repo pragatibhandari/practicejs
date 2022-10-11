@@ -16,7 +16,8 @@ function add(n1, n2) {
 add(23, 11); //34
 
 /* 3. Write code for a function shoppingList(numberOfGuests) for the following scenario: There is going to be a party. 
-Based on the number of participants, calculate the amounts of food and drink to be bought. You will buy 3 sausages, 5 bottles of drink, 2 tomatoes and 1 egg for each guest. Define constants for the numbers of items for each guest. 
+Based on the number of participants, calculate the amounts of food and drink to be bought. You will buy 3 sausages, 5 bottles of drink, 2 tomatoes and 1 egg for each guest. 
+Define constants for the numbers of items for each guest. 
 Print the shopping list as shown in the examples. */
 
 const NUMBER_OF_SAUSAGES_PER_PERSON = 3;
