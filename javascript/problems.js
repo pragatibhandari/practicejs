@@ -180,14 +180,17 @@ function calendar(firstWeekDay, month, numberOfDays) {
     "Friday",
     "Saturday",
   ];
+  let k = 1;
+  let start = 1;
 
-  for (var i = 1; i <= numberOfDays; i++) {
-    for (var num = firstWeekDay; num <= 7; num++) {
-      var weekday = days[num];
-      console.log(weekday);
+  for (j = 0; j < 5; j++) {
+    for (i = 0; i < days.length; i++) {
+      if (k <= numberOfDays) {
+        var pointer = (i + firstWeekDay) % days.length;
+        console.log(days[pointer] + " " + k + "." + month + ".");
+      }
+      k++;
     }
-
-    console.log(weekday + " " + i + "." + month + ".");
   }
 }
-calendar(4, 2, 15);
+calendar(1, 2, 28);
