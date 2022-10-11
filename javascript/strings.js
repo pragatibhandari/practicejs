@@ -24,3 +24,11 @@ function getLongerString(string1, string2) {
 console.log(getLongerString("Foo", "Foobar")); //Foobar
 console.log(getLongerString("Hello", "")); //Hello
 console.log(getLongerString("Hello", "James")); //Hello
+
+/* problem 3
+ Write function getLastFiveLetters() that takes one input parameter and returns last five letters of that string. */
+
+function getLastFiveLetters(word) {
+  return word.slice(-5);
+}
+console.log(getLastFiveLetters("Foobar")); //oobar
