@@ -20,7 +20,6 @@ function calculateDiscount(price) {
     );
   }
 }
-
 calculateDiscount(51); //45.90
 
 /* 2. Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
@@ -35,6 +34,23 @@ function oddOrEven(number) {
     console.log(+number + " is odd");
   }
 }
-
 oddOrEven(2); // 2 is even
 oddOrEven(5); // 5 is odd
+
+/* 3. Write code for function that checks given number and prints out "Number is positive", "Number is negative" or "Number is zero" respectively.
+In this task you can assume input to be of correct data type (numeric) and error handling is not necessary. */
+
+function negativeOrPositive(number) {
+  // Your code goes here
+  var a = Number(number);
+  if (a === 0) {
+    console.log("number is zero");
+  } else if (a > 0) {
+    console.log("number is positive");
+  } else {
+    console.log("number is negative");
+  }
+}
+negativeOrPositive(0); // Number is zero
+negativeOrPositive(1); // Number is positive
+negativeOrPositive(-1); // Number is negative
