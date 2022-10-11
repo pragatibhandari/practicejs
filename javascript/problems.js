@@ -194,3 +194,35 @@ function calendar(firstWeekDay, month, numberOfDays) {
   }
 }
 calendar(1, 2, 28);
+
+// ### Problem 10
+
+// Write code for a function that gets three parameters: firstWeekDay (a number, 1 meaning Monday, 2 for Tuesday etc.), month and numberOfDays and will then print out each date accompanied by the weekday name. Each week is on a new line.
+
+function calendar(firstWeekDay, month, numberOfDays) {
+  var days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let k = 1;
+  let start = 1;
+
+  for (j = 0; j < 5; j++) {
+    for (i = 0; i < days.length; i++) {
+      if (k <= numberOfDays) {
+        var pointer = (i + firstWeekDay) % days.length;
+        process.stdout.write(days[pointer] + " " + k + "." + month + ". ");
+        if (pointer == 0) {
+          console.log("");
+        }
+      }
+      k++;
+    }
+  }
+}
+calendar(3, 2, 30);
