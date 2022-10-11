@@ -33,3 +33,15 @@ function getItem(index) {
   console.log(array[index]);
 }
 getItem(3); //kiwi
+
+/* Problem 4
+Write code for a function that prints out items of an array from the last to the first, each followed by a space. */
+
+function printReversedArray(array) {
+  var reversed = array.reverse().toString();
+  // var replaced = reversed.replaceAll(",", " "); // ES12+
+  var replaced = reversed.replace(/,/g, " "); // in older browsers
+  console.log(replaced);
+}
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+printReversedArray(array); // 10 9 8 7 6 5 4 3 2 1
