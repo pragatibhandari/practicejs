@@ -106,7 +106,6 @@ function calculate(number1, number2, calculation) {
     console.log(divide);
   }
 }
-
 calculate(8, 12, "+"); // 20
 calculate(8, 12, "-"); // -4
 calculate(8, 12, "*"); // 96
