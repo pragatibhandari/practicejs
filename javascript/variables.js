@@ -13,9 +13,9 @@ function add(n1, n2) {
   var sum = n1 + n2;
   console.log(sum);
 }
-add(23, 11);
+add(23, 11); //34
 
-// 3. Write code for a function shoppingList(numberOfGuests) for the following scenario: There is going to be a party. Based on the number of participants, calculate the amounts of food and drink to be bought. You will buy 3 sausages, 5 bottles of drink, 2 tomatoes and 1 egg for each guest. Define constants for the numbers of items for each guest. Print the shopping list as shown in the examples.
+/* 3. Write code for a function shoppingList(numberOfGuests) for the following scenario: There is going to be a party. Based on the number of participants, calculate the amounts of food and drink to be bought. You will buy 3 sausages, 5 bottles of drink, 2 tomatoes and 1 egg for each guest. Define constants for the numbers of items for each guest. Print the shopping list as shown in the examples. */
 
 const NUMBER_OF_SAUSAGES_PER_PERSON = 3;
 const NO_OF_DRINKS = 5;
@@ -35,22 +35,24 @@ function shoppingList(numberOfGuests) {
 }
 
 shoppingList(5);
-// * 15 sausages
-// * 25 drinks
-// * 10 tomatoes
-// * 5 eggs
+/*
+ * 15 sausages
+ * 25 drinks
+ * 10 tomatoes
+ * 5 eggs
+ */
 
-// 4. Create a variable called number.
-// Set its value to be 7.
-// Print out the value.
+/* 4. Create a variable called number.
+Set its value to be 7.
+Print out the value. */
 
 function variable() {
   var number = 7;
   console.log(number);
 }
-variable(7);
+variable(7); //7
 
-// 5. Write code for function area(width, height) that calculates the area of a rectangle and prints it out.
+//5. Write code for function area(width, height) that calculates the area of a rectangle and prints it out.
 function area(width, height) {
   var areaOfRectangle = width * height;
   console.log(areaOfRectangle);
