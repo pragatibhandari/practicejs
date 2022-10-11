@@ -1,5 +1,6 @@
 /* Problem 1
-Write code for a function that gets an multidimensional array as an input parameter and prints out the item that is found on the third column of the second row. */
+Write code for a function that gets an multidimensional array as an input parameter and prints out the item that is found on the third column of the second row.
+*/
 
 function getItem23(matrix) {
   console.log(matrix[1][2]);
@@ -11,7 +12,8 @@ let matrix = [
 getItem23(matrix); //f
 
 /* Problem 2
-Write code for a function that gets an average of item values in a given array and prints it out. */
+Write code for a function that gets an average of item values in a given array and prints it out.
+*/
 
 function average(array) {
   var sum = 0;
@@ -26,7 +28,8 @@ average(numbers);
 
 /* Problem 3
 You have an array with the following items: 'apple', 'orange', 'banana', 'kiwi'.
-Write code for a function that prints out the element from the array from the given index. */
+Write code for a function that prints out the element from the array from the given index.
+*/
 
 let array = ["apple", "orange", "banana", "kiwi"];
 function getItem(index) {
@@ -35,7 +38,8 @@ function getItem(index) {
 getItem(3); //kiwi
 
 /* Problem 4
-Write code for a function that prints out items of an array from the last to the first, each followed by a space. */
+Write code for a function that prints out items of an array from the last to the first, each followed by a space.
+*/
 
 function printReversedArray(array) {
   var reversed = array.reverse().toString();
@@ -45,3 +49,13 @@ function printReversedArray(array) {
 }
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 printReversedArray(array); // 10 9 8 7 6 5 4 3 2 1
+
+/* Problem 5
+Write code for a function that prints out the fifth item in an array given as a parameter.
+*/
+
+function getFifthItem(array) {
+  console.log(array[4]);
+}
+let fruits = ["banana", "kiwi", "watermelon", "apple", "grapefruit"];
+getFifthItem(fruits); //grapefruit
