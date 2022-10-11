@@ -22,3 +22,19 @@ function calculateDiscount(price) {
 }
 
 calculateDiscount(51); //45.90
+
+/* 2. Write code for a function that checks whether given number is odd or even and prints out "[number] is even" or "[number] is odd"
+In this task you can assume input to be of correct data type (numeric) and error handling is not necessary. */
+
+function oddOrEven(number) {
+  "var=";
+  Number(number);
+  if (number % 2 == 0) {
+    console.log(+number + " is even");
+  } else {
+    console.log(+number + " is odd");
+  }
+}
+
+oddOrEven(2); // 2 is even
+oddOrEven(5); // 5 is odd
