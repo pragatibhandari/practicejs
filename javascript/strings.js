@@ -36,3 +36,4 @@ console.log(getLastFiveLetters("Foobar")); //oobar
 /* Problem 4
 Write function censorA() that replaces all occurrences of the letter a with an asterisk and then returns the censored string.
 */
+
