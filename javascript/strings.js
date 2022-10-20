@@ -61,6 +61,24 @@ console.log(stringToArray("banana, apple, grapefruit", ",")); //[ 'banana', ' ap
 console.log(stringToArray("James|Jim|George", ",")); //[ 'James|Jim|George' ]
 console.log(stringToArray("James|Jim|George", "|")); //[ 'James', 'Jim', 'George' ]
 
-/* Problem 5
+/* Problem 6
  Write function getImportantInformation() that takes a string, finds word **IMPORTANT in it, takes the substring starting with **IMPORTANT till it reaches **.
  */
+function getImportantInformation(str) {
+  const found = str.lastIndexOf("**IMPORTANT");
+  const start = found + 12;
+  const foundindex = str.lastIndexOf("*");
+  const res = str.slice(start, foundindex);
+
+  return res;
+}
+console.log(
+  getImportantInformation(
+    "Lorem ipsum **IMPORTANT Mind the gap* dolor sit amet"
+  )
+);
+console.log(
+  getImportantInformation(
+    "Lorem ipsum **IMPORTANT This is the important message* dolor sit amet"
+  )
+);
