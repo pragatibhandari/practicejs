@@ -48,3 +48,17 @@ function censorA(str) {
 console.log(censorA("Meija"));
 console.log(censorA("AaAaAa"));
 console.log(censorA("JavaScript is fun"));
+
+/* Problem 5
+Write function stringToArray(text, divider) that converts a given string into an array. String is split based on the given divider. */
+
+/* Write function stringToArray(text, divider) that converts a given string into an array. String is split based on the given divider.
+ */
+function stringToArray(text, divider) {
+  result = text.split(divider);
+  return result;
+}
+
+console.log(stringToArray("banana, apple, grapefruit", ",")); //[ 'banana', ' apple', ' grapefruit' ]
+console.log(stringToArray("James|Jim|George", ",")); //[ 'James|Jim|George' ]
+console.log(stringToArray("James|Jim|George", "|")); //[ 'James', 'Jim', 'George' ]
