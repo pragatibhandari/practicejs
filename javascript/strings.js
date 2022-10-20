@@ -52,8 +52,6 @@ console.log(censorA("JavaScript is fun"));
 /* Problem 5
 Write function stringToArray(text, divider) that converts a given string into an array. String is split based on the given divider. */
 
-/* Write function stringToArray(text, divider) that converts a given string into an array. String is split based on the given divider.
- */
 function stringToArray(text, divider) {
   result = text.split(divider);
   return result;
@@ -62,3 +60,7 @@ function stringToArray(text, divider) {
 console.log(stringToArray("banana, apple, grapefruit", ",")); //[ 'banana', ' apple', ' grapefruit' ]
 console.log(stringToArray("James|Jim|George", ",")); //[ 'James|Jim|George' ]
 console.log(stringToArray("James|Jim|George", "|")); //[ 'James', 'Jim', 'George' ]
+
+/* Problem 5
+ Write function getImportantInformation() that takes a string, finds word **IMPORTANT in it, takes the substring starting with **IMPORTANT till it reaches **.
+ */
