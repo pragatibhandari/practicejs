@@ -57,8 +57,8 @@ Write code for a function that prints out the fifth item in an array given as a 
 function getFifthItem(array) {
   console.log(array[4]);
 }
-let fruits = ["banana", "kiwi", "watermelon", "apple", "grapefruit"];
-getFifthItem(fruits); //grapefruit
+let fruit = ["banana", "kiwi", "watermelon", "apple", "grapefruit"];
+getFifthItem(fruit); //grapefruit
 
 // Create a JS array that has the following items: "banana", "apple", "kiwi", "orange".
 let fruits = ["watermelon", "banana", "apple", "kiwi", "orange"];

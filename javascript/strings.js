@@ -36,4 +36,15 @@ console.log(getLastFiveLetters("Foobar")); //oobar
 /* Problem 4
 Write function censorA() that replaces all occurrences of the letter a with an asterisk and then returns the censored string.
 */
+function censorA(str) {
+  const word = str.toString();
 
+  for (let i = 0; i < word.length; i++) {
+    var result = word.toString().replace(/a/g, "*");
+    var res = result.replace(/A/g, "*");
+    return res;
+  }
+}
+console.log(censorA("Meija"));
+console.log(censorA("AaAaAa"));
+console.log(censorA("JavaScript is fun"));
