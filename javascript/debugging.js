@@ -33,6 +33,7 @@ process.stdin.on("data", function(inputFromUser) {
     } if (thirdNumber > foundLargestNumber) {
         foundLargestNumber = secondNumber;
     
+        
 
     // Let's print out the result
     process.stdout.write( "/n The largest number is " + foundLargestNumber ".\n\n");
